@@ -20,7 +20,7 @@ import java.net.HttpCookie;
          super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_welcome);
      }
-
+//hi im sachi
 
      public void onButtonSignUpClicked(View view) {
          Intent intent = new Intent(Welcome.this, SignUp.class);
