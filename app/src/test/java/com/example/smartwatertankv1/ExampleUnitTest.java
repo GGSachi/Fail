@@ -1,4 +1,4 @@
-package com.example.smartwatertank;
+package com.example.smartwatertankv1;
 
 import org.junit.Test;
 
