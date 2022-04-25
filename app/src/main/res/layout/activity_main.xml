@@ -8,11 +8,11 @@
 
     <TextView
         android:id="@+id/WELCOME"
-        android:layout_width="592dp"
-        android:layout_height="209dp"
+        android:layout_width="302dp"
+        android:layout_height="137dp"
         android:text="WELCOME"
         android:textAlignment="center"
-        android:textSize="96sp"
+        android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
@@ -26,24 +26,24 @@
         android:id="@+id/SignIn"
         android:layout_width="wrap_content"
         android:layout_height="122dp"
-        android:layout_marginStart="168dp"
+        android:layout_marginStart="232dp"
         android:text="Sign In"
-        android:textSize="60sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/WELCOME"
-        app:layout_constraintVertical_bias="0.554" />
+        app:layout_constraintVertical_bias="0.571" />
 
     <Button
         android:id="@+id/SignUp"
         android:layout_width="wrap_content"
         android:layout_height="133dp"
-        android:layout_marginEnd="196dp"
+        android:layout_marginEnd="212dp"
         android:text="Sign Up"
-        android:textSize="60sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/WELCOME"
-        app:layout_constraintVertical_bias="0.559" />
+        app:layout_constraintVertical_bias="0.588" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
