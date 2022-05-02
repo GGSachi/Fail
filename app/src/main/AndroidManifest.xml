@@ -10,6 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartWaterTankV1">
         <activity
+            android:name=".UsageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WaterBillActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DrawerBaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"/>
+
+        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
